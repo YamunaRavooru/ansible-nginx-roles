@@ -1,0 +1,6 @@
+- name: installing nginx server
+  hosts: local 
+  connection: local
+  become: yes
+  roles:
+  - frontend
